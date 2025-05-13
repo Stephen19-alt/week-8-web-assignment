@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="web-dev-project.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Stephen's Blog Website</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <!-- Home Menu with Submenus -->
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Home</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#mission-statement">Mission</a></li>
+                        <li><a href="#vision-statement">Vision</a></li>
+                    </ul>
+                </li>
+                <!-- Blog Menu with Submenus -->
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Blog</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#blog1">HTML5 Simplified</a></li>
+                        <li><a href="#blog2">CSS New Features</a></li>
+                        <li><a href="#blog3">JavaScript Made Easy</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <button id="themeToggle">Toggle Theme</button>
+
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my blog page where you explore the latest trends in software development.</p>
+        </section>
+        <section id="mission-statement">
+            <h2>Mission Statement</h2>
+            <p>To share the latest trends in software development.</p>
+        </section>
+        <section id="vision-statement">
+            <h2>Vision Statement</h2>
+            <p>To be the leading blog in software development.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>My name is Stephen, and I am a software developer with a passion for sharing knowledge.</p>
+        </section>
+        <section id="blog1">
+            <h2>HTML5 Simplified</h2>
+            <p>HTML5 is the latest version of HTML, the standard markup language for creating web pages.</p>
+        </section>
+        <section id="blog2">
+            <h2>CSS New Features</h2>
+            <p>CSS introduced Flexbox and Grid layouts for more responsive designs.</p>
+        </section>
+        <section id="blog3">
+            <h2>JavaScript Made Easy</h2>
+            <p>JavaScript is easier with ES6 features like arrow functions, classes, and modules.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Stephen's Blog. All rights reserved.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="web-dev-project.js"></script>
+</body>
+</html>
